@@ -1,4 +1,4 @@
-file = open("devices.txt", "r+")
+file = open("devices.txt", "r")
 for item in file:
     item = item.strip()
     print(item)
@@ -13,7 +13,8 @@ while True:
             item = item.strip()
             print(item)
         file.close()
-    file = open("devices.txt", "r+")
-    file.write(newtext + "\n")
+    file = open("devices.txt", "a")
+    if newtext != "T":
+        file.write(newtext + "\n")
     file.close()
 file.close()

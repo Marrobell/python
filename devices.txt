@@ -1,17 +1,8 @@
 T
-l
-ch 1
-switch 2
-switch 3
-switch 4
-switch 5
-switch 6
-switch 7
-switch 8
-switch 9
-switch 10
-Router
-router
-ro
+uter 2
+Router 15
 T
-switch 999
+T
+T
+T
+Computer
