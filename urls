@@ -14,3 +14,10 @@ https://yandex.cloud/ru/docs/tutorials/infrastructure-management/run-docker-on-v
 https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
 https://prometheus.io/docs/guides/node-exporter/
 https://habr.com/ru/articles/652185/
+resource "yandex_compute_disk" "first-disk" {
+  name     = "<имя_диска>"
+  type     = "<тип_диска>"
+  zone     = "<зона_доступности>"
+  size     = "<размер_диска>"
+  image_id = "<идентификатор_образа>"
+}
